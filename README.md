@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: In the naked twins problem constain propagation allows us to eliminate some possible values from the boxes in a unit if in this unit there are two other boxes, which have only two possible values and these possible values are identical. This is because we know that these two values must be in these two boxes and so they cannot be in any other box in this unit.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: The diagonal sudoku adds additional constain to the set of constains used in the normal sudoku. In the diagonal sudoku the diagonal units must satisfy the same conditions as the rows, columns and squares - they must have all values from 1 to 9 and no values can apear more than once. This means that we can use constain propagation to eliminate some additional possible values. To do that we can use eliminate, only choice, naked twins and other strategies on the diagonal units.
 
 ### Install
 
